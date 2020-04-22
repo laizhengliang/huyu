@@ -49,7 +49,7 @@ class Home3Controller
     public function getList(): array
     {
         $result  = $this->userService->getList(111, 'type');
-        $result3 = $this->orderService->getList(222, 'typ1e');
+        $result3 = $this->orderService->getList(222, 'typ111e');
         return [$result, $result3];
     }
 
